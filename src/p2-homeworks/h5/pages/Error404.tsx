@@ -1,11 +1,14 @@
 import React from 'react'
+import classes from './Error404.module.css'
 
 function Error404() {
     return (
-        <div>
-            <div>404</div>
-            <div>Page not found!</div>
-            <div>—ฅ/ᐠ.̫ .ᐟ\ฅ—</div>
+        <div className={classes.container}>
+            <div className={classes.main}>
+                <div className={classes.fof}>
+                    <h1>Error 404</h1>
+                </div>
+            </div>
         </div>
     )
 }
