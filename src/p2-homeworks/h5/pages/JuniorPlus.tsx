@@ -1,14 +1,10 @@
 import React from 'react'
+import HW13 from '../../h13/HW13';
 
 function PreJunior() {
     return (
         <div>
-            <h1>JUNIOR_PLUS</h1>
-            {/*<HW12/>*/}
-            {/*<HW13/>*/}
-            {/*<HW14/>*/}
-            {/*<HW15/>*/}
-            {/*<HW16/>*/}
+            <HW13/>
         </div>
     )
 }
